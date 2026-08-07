@@ -58,8 +58,8 @@
 		)
 	)
 	(sheet
-		(at 27.94 58.42)
-		(size 20.32 6.35)
+		(at 33.02 91.44)
+		(size 45.72 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -74,7 +74,7 @@
 		)
 		(uuid "2e415d97-e420-471f-8ff1-3da9658682b0")
 		(property "Sheetname" "MCU"
-			(at 27.94 57.7084 0)
+			(at 33.02 90.7284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85,7 +85,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 27.94 65.3546 0)
+			(at 33.02 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -93,6 +93,126 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "digit_cc1" input
+			(at 33.02 101.6 180)
+			(uuid "3836ffa9-cd85-4dec-8e1c-83656cf975cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digit_cc2" input
+			(at 33.02 104.14 180)
+			(uuid "73bf1919-5826-45b6-8bc0-bcc43f6807b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digit_cc3" input
+			(at 33.02 106.68 180)
+			(uuid "0f453783-4237-4a6b-99c0-3c3aded17d70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digit_cc4" input
+			(at 33.02 109.22 180)
+			(uuid "50b3bab1-ff2d-4d2b-8fa9-e2df88b4db1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "segment_a" input
+			(at 78.74 102.87 0)
+			(uuid "530686ab-6ce9-4a5b-b443-c79a50797aae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_b" input
+			(at 78.74 105.41 0)
+			(uuid "9e507148-3504-496e-bc1c-e41f865b7164")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_c" input
+			(at 78.74 107.95 0)
+			(uuid "d95b16be-f1c8-4662-a1ee-01a1d0c83fb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_d" input
+			(at 78.74 110.49 0)
+			(uuid "cdb9496b-7b97-436c-aaac-2973a1a0cb26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_dpx" input
+			(at 78.74 121.92 0)
+			(uuid "520d5ba9-95c2-424f-b16a-e54de5f0c9da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_e" input
+			(at 78.74 113.03 0)
+			(uuid "fb4669c3-d65b-491e-8105-dd3104fb8917")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_f" input
+			(at 78.74 115.57 0)
+			(uuid "e6305172-6fd0-49bd-af90-25bb49b29321")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_g" input
+			(at 78.74 118.11 0)
+			(uuid "7bd9d798-e658-4699-819d-f1cc8bdd8333")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -150,8 +270,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 58.42)
-		(size 19.05 6.35)
+		(at 93.98 91.44)
+		(size 50.8 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -166,7 +286,7 @@
 		)
 		(uuid "413b0616-ef12-4604-aa8c-4676c34b0a31")
 		(property "Sheetname" "Display"
-			(at 57.15 57.7084 0)
+			(at 93.98 90.7284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -177,7 +297,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 57.15 65.3546 0)
+			(at 93.98 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -185,6 +305,146 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 93.98 99.06 180)
+			(uuid "1ca551c2-1fda-47c8-9516-caa793ae94f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digit_cc1" input
+			(at 93.98 104.14 180)
+			(uuid "47449c44-1f1f-4cb9-9e6f-42bb5739883f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digit_cc2" input
+			(at 93.98 106.68 180)
+			(uuid "8ffbab3e-376b-4e43-82dc-b1eccfea67f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digit_cc3" input
+			(at 93.98 109.22 180)
+			(uuid "577065e9-5e3f-4cb8-9c2a-b92707646d7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "digit_cc4" input
+			(at 93.98 111.76 180)
+			(uuid "5bab5e8f-ce8f-4030-9db9-ac2b6f3c750a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 93.98 101.6 180)
+			(uuid "ce8e082d-07ad-42c2-baf7-fc5a6c36a1f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "segment_a" input
+			(at 144.78 102.87 0)
+			(uuid "07514452-b42b-4504-926e-2b9562f62b7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_b" input
+			(at 144.78 105.41 0)
+			(uuid "7a1f6256-5fb9-42dd-8aaf-be888b0c09cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_c" input
+			(at 144.78 107.95 0)
+			(uuid "3ac16af4-2618-40b2-9783-3638f9887311")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_d" input
+			(at 144.78 110.49 0)
+			(uuid "8a845174-ec57-472d-ba90-977c6780747a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_dpx" input
+			(at 144.78 120.65 0)
+			(uuid "53055e7b-73cb-4489-be66-d368a6e4b004")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_e" input
+			(at 144.78 113.03 0)
+			(uuid "1038bd1b-70f1-4a3e-9e26-0bdc9190638e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_f" input
+			(at 144.78 115.57 0)
+			(uuid "358fd2c0-13b6-4e3e-b0eb-b9baf339e405")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "segment_g" input
+			(at 144.78 118.11 0)
+			(uuid "bec67f9b-44d7-44d4-aa9e-b5958824de69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
