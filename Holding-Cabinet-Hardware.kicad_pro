@@ -416,13 +416,37 @@
         "uuid": "a7f4af77-1a94-4795-9d88-0a73c264962c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-6,R1-48,J1-2,Q1-24,U1-2",
     "variants": []
   },
   "sheets": [
     [
       "a7f4af77-1a94-4795-9d88-0a73c264962c",
       "Root"
+    ],
+    [
+      "413b0616-ef12-4604-aa8c-4676c34b0a31",
+      "Display"
+    ],
+    [
+      "cfeb8d28-b99b-4af7-880d-fff0902ab2ec",
+      "Power"
+    ],
+    [
+      "02773f20-0378-4389-992b-d41b0ba86094",
+      "Heater"
+    ],
+    [
+      "35e033dd-94cf-4e09-8c1d-bb27faf67cf1",
+      "Fan"
+    ],
+    [
+      "cdeb7cbc-edb4-4f9f-93a2-3ddfe909c503",
+      "Sensing"
+    ],
+    [
+      "875c767d-f050-4c17-8209-33f36ce53a8b",
+      "Connectivity"
     ]
   ],
   "text_variables": {},
