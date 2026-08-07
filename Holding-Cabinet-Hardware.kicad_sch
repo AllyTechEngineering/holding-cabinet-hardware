@@ -58,6 +58,52 @@
 		)
 	)
 	(sheet
+		(at 27.94 58.42)
+		(size 20.32 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2e415d97-e420-471f-8ff1-3da9658682b0")
+		(property "Sheetname" "MCU"
+			(at 27.94 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 27.94 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Holding-Cabinet-Hardware"
+				(path "/a7f4af77-1a94-4795-9d88-0a73c264962c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 137.16 58.42)
 		(size 17.78 6.35)
 		(exclude_from_sim no)

@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7381e927-a64a-4ae9-b913-5d3bc3480db5")
+	(paper "USLetter")
+	(title_block
+		(title "MCU")
+		(date "2026-08-07")
+		(rev "0")
+	)
+	(lib_symbols)
+)

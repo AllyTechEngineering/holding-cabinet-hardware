@@ -447,6 +447,10 @@
     [
       "875c767d-f050-4c17-8209-33f36ce53a8b",
       "Connectivity"
+    ],
+    [
+      "2e415d97-e420-471f-8ff1-3da9658682b0",
+      "MCU"
     ]
   ],
   "text_variables": {},
