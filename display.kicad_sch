@@ -4523,7 +4523,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51f27d4e-0519-4f11-b467-d5011150c157")
 		(property "Reference" "#PWR06"
 			(at 226.06 60.96 0)
@@ -4536,14 +4535,15 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 226.06 52.07 0)
+		(property "Value" "+5V"
+			(at 224.79 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
