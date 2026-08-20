@@ -285,7 +285,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "413b0616-ef12-4604-aa8c-4676c34b0a31")
-		(property "Sheetname" "Display"
+		(property "Sheetname" "7-Segment Display"
 			(at 93.98 90.7284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -296,7 +296,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "display.kicad_sch"
+		(property "Sheetfile" "7_segment_display.kicad_sch"
 			(at 93.98 126.3146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -451,6 +451,52 @@
 			(project "Holding-Cabinet-Hardware"
 				(path "/a7f4af77-1a94-4795-9d88-0a73c264962c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 91.44)
+		(size 57.15 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "694b6535-648c-4f8c-bb50-31733b602876")
+		(property "Sheetname" "LCD 16x2 Display"
+			(at 158.75 90.7284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lcd_16_2_display.kicad_sch"
+			(at 158.75 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Holding-Cabinet-Hardware"
+				(path "/a7f4af77-1a94-4795-9d88-0a73c264962c"
+					(page "9")
 				)
 			)
 		)

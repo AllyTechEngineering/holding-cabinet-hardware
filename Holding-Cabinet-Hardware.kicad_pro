@@ -416,7 +416,7 @@
         "uuid": "a7f4af77-1a94-4795-9d88-0a73c264962c"
       }
     ],
-    "used_designators": "#PWR1-6,R1-48,J1-2,Q1-24,U1-2",
+    "used_designators": "#PWR1-6,J1-2,R1-48,Q1-24,U1-2,K1,SW1,F1,D1",
     "variants": []
   },
   "sheets": [
@@ -426,7 +426,7 @@
     ],
     [
       "413b0616-ef12-4604-aa8c-4676c34b0a31",
-      "Display"
+      "7-Segment Display"
     ],
     [
       "cfeb8d28-b99b-4af7-880d-fff0902ab2ec",
@@ -451,6 +451,10 @@
     [
       "2e415d97-e420-471f-8ff1-3da9658682b0",
       "MCU"
+    ],
+    [
+      "694b6535-648c-4f8c-bb50-31733b602876",
+      "LCD 16x2 Display"
     ]
   ],
   "text_variables": {},
