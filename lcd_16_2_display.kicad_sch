@@ -949,7 +949,7 @@
 			"AAAApH4DBhIP6O/h9xgAAAAASUVORK5CYII="
 		)
 	)
-	(hierarchical_label "I2C_SDA"
+	(hierarchical_label "I2C2_SDA"
 		(shape input)
 		(at 93.98 87.63 180)
 		(effects
@@ -971,7 +971,7 @@
 		)
 		(uuid "c8559c1b-6baf-4e67-b7ec-512a302f5114")
 	)
-	(hierarchical_label "I2C_SCL"
+	(hierarchical_label "I2C2_SCL"
 		(shape input)
 		(at 93.98 85.09 180)
 		(effects
