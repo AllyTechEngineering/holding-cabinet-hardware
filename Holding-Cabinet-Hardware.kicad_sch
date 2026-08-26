@@ -12,8 +12,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 111.76 58.42)
-		(size 17.78 6.35)
+		(at 86.36 91.44)
+		(size 24.13 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28,7 +28,7 @@
 		)
 		(uuid "02773f20-0378-4389-992b-d41b0ba86094")
 		(property "Sheetname" "Heater"
-			(at 111.76 57.7084 0)
+			(at 86.36 90.7284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39,7 +39,7 @@
 			)
 		)
 		(property "Sheetfile" "heater.kicad_sch"
-			(at 111.76 65.3546 0)
+			(at 86.36 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47,6 +47,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 86.36 99.06 180)
+			(uuid "8f89ce25-36b3-407b-9c13-0b70b5cf3f70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 86.36 109.22 180)
+			(uuid "91202651-fbbd-42bb-a209-f5101a064d66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN1" input
+			(at 86.36 113.03 180)
+			(uuid "1e7bce57-1831-422e-bdca-5f932679b2ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 86.36 116.84 180)
+			(uuid "d7cc5930-b170-4259-a143-62bbbcb056f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN3" input
+			(at 92.71 127 270)
+			(uuid "aa3d98ea-eecc-4e53-a2db-773bf263e73a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN4" input
+			(at 96.52 127 270)
+			(uuid "ee7fc52e-6535-40bd-96f5-a4d514026e13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -95,7 +155,7 @@
 				(justify left top)
 			)
 		)
-		(pin "IN1" output
+		(pin "IN1" input
 			(at 33.02 101.6 180)
 			(uuid "3836ffa9-cd85-4dec-8e1c-83656cf975cb")
 			(effects
@@ -105,7 +165,7 @@
 				(justify left)
 			)
 		)
-		(pin "IN2" output
+		(pin "IN2" input
 			(at 33.02 104.14 180)
 			(uuid "73bf1919-5826-45b6-8bc0-bcc43f6807b7")
 			(effects
@@ -115,7 +175,7 @@
 				(justify left)
 			)
 		)
-		(pin "IN3" output
+		(pin "IN3" input
 			(at 33.02 106.68 180)
 			(uuid "0f453783-4237-4a6b-99c0-3c3aded17d70")
 			(effects
@@ -125,7 +185,7 @@
 				(justify left)
 			)
 		)
-		(pin "IN4" output
+		(pin "IN4" input
 			(at 33.02 109.22 180)
 			(uuid "50b3bab1-ff2d-4d2b-8fa9-e2df88b4db1b")
 			(effects
@@ -135,7 +195,7 @@
 				(justify left)
 			)
 		)
-		(pin "LED3" output
+		(pin "LED3" input
 			(at 78.74 102.87 0)
 			(uuid "530686ab-6ce9-4a5b-b443-c79a50797aae")
 			(effects
@@ -145,7 +205,7 @@
 				(justify right)
 			)
 		)
-		(pin "LED2" output
+		(pin "LED2" input
 			(at 78.74 105.41 0)
 			(uuid "9e507148-3504-496e-bc1c-e41f865b7164")
 			(effects
@@ -155,7 +215,7 @@
 				(justify right)
 			)
 		)
-		(pin "LED1" output
+		(pin "LED1" input
 			(at 78.74 107.95 0)
 			(uuid "d95b16be-f1c8-4662-a1ee-01a1d0c83fb4")
 			(effects
@@ -215,6 +275,16 @@
 				(justify right)
 			)
 		)
+		(pin "I2C2_SDA" input
+			(at 33.02 113.03 180)
+			(uuid "d96a8c8e-d75f-4d3f-8fe2-f3f860188d63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Holding-Cabinet-Hardware"
 				(path "/a7f4af77-1a94-4795-9d88-0a73c264962c"
@@ -270,8 +340,8 @@
 		)
 	)
 	(sheet
-		(at 158.75 91.44)
-		(size 57.15 34.29)
+		(at 121.92 92.71)
+		(size 22.86 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -286,7 +356,7 @@
 		)
 		(uuid "694b6535-648c-4f8c-bb50-31733b602876")
 		(property "Sheetname" "LCD 16x2 Display"
-			(at 158.75 90.7284 0)
+			(at 121.92 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -297,7 +367,7 @@
 			)
 		)
 		(property "Sheetfile" "lcd_16_2_display.kicad_sch"
-			(at 158.75 126.3146 0)
+			(at 121.92 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -305,6 +375,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 121.92 96.52 180)
+			(uuid "280e8dcf-8505-4db7-b212-92cecebd16d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 121.92 100.33 180)
+			(uuid "ed18b755-6f79-4f65-906e-476eb893c4c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C2_SCL" input
+			(at 121.92 105.41 180)
+			(uuid "9638f2e4-fae3-429e-bb8b-0c0ffc556eeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C2_SDA" input
+			(at 121.92 109.22 180)
+			(uuid "5627795a-9e16-4e72-a611-8b0d3610cf50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
